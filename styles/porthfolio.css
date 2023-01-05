@@ -1,0 +1,131 @@
+/* universal code */
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 18px 35px;
+    border: none;
+    color: #fff;
+}
+
+/* nav style */
+.header {
+    background: #FFF8F3;
+    overflow: hidden;
+    background-image: url(../images/developer.png), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px 50px 214px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+    text-transform: capitalize;
+}
+
+/* banner design */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 214px;
+}
+
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+    margin: 5px;
+}
+
+.banner-titel {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+.about {
+    background: #FFF8F3;
+    padding: 131px 156px;
+    margin-top: 130px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+p.info-des {
+    color: #474747;
+    font-weight: 900;
+}
