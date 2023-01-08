@@ -274,7 +274,7 @@ textarea {
 
 
 /* Responsive */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
 
     /* Universal Style */
     .btn-primary {
@@ -346,6 +346,7 @@ textarea {
     /* about section */
     .about {
         padding: 40px 15px;
+        margin-top: 0px;
     }
 
     .section-title {
